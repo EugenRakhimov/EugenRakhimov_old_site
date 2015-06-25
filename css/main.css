@@ -3,10 +3,117 @@ General
 ************************/
 a {
   text-decoration:none;
-  color:#6ab47b;
+  color:#DF3A01;
 }
+/* site body*/
+body {
+  background-color:#CEF6E3;
+  color:#DA3000;
+}
+body {font-family: 'Shadows Into Light', cursive;
+}
+
 img {
  max-width:100%;
+}
+video {
+  max-width: 100%
+}
+
+/***********************
+Heading
+************************/
+
+/***********************
+Colors
+************************/
+/**a light blue header*/
+header {
+  background:#00FFFF;
+  border-color:#599a68;
+}
+
+header{float:left;
+  margin:0 0 30px 0;
+  padding:5px 0 0 0;
+  width:100%;
+}
+h1, h2 {
+  color:#DF3A01;
+}
+h1 {float:left
+  font-family: 'Indie Flower', cursive;
+  width:33%;
+  margin:0px 0;
+  font-size:1.75em;
+  font-weight:normal;
+  line-height:2.8em;
+  text-align: left;
+}
+h2 {float:left;
+  width:33%;
+  font-family: 'Indie Flower', cursive;
+  font-size:1.75em;
+  margin:0px 0 0;
+  font-weight:normal;
+}
+
+/***********************
+Navigation
+************************/
+nav {
+  background:#00FAFA;
+  width: 100%
+
+}
+nav {text-align:center;
+  padding:10px 0;
+  margin:20px 0 0;
+}
+nav a, nav a:visited{
+  color:#fff;
+}
+/* selected links*/
+nav a.selected, nav a:hover{
+  color:#32673f;
+}
+
+nav {text-align:center;
+  padding:10px 0;
+  margin:20px 0 0;
+}
+nav ul {
+  list-style:none;
+  margin:0 10px;
+  padding:0;
+}
+nav ul li{ 
+/*try to do horisontal*/
+float:left;
+  width:25%;
+}
+
+nav {
+  display:inline-block
+}
+
+nav a {font-weight:800;
+  padding:15px 10px;
+}
+
+/***********************
+Footer
+************************/
+footer{font-size:0.75em;
+  text-align:center;
+  clear:both;
+  padding-top:50 px;
+  color:#ccc;
+}
+social_logo {
+  width:20px;
+  height:20px;
+  margin:0 5px;
 }
 /***********************
 Page:Portfolio
@@ -46,97 +153,9 @@ h3{
   margin:0 0 1em 0;
 } 
 
-/***********************
-Heading
-************************/
 
-/***********************
-Colors
-************************/
-/**a green header*/
-header {
-  background:#6ab47b;
-  border-color:#599a68;
-}
 
-header{float:left;
-  margin:0 0 30px 0;
-  padding:5px 0 0 0;
-  width:100%;
-}
-h1, h2 {
-  color:#fff;
-}
-h1 {
-  font-family: 'Indie Flower', cursive;
-  
-  margin:15px 0;
-  font-size:1.75em;
-  font-weight:normal;
-  line-height:2.8em;
-}
-h2 {font-size:0.75em;
-  margin:-5px 0 0;
-  font-weight:normal;
-}
 
-/***********************
-Navigation
-************************/
-nav {
-  background:#599a68;
-}
-nav {text-align:center;
-  padding:10px 0;
-  margin:20px 0 0;
-}
-nav a, nav a:visited{
-  color:#fff;
-}
-/* selected links*/
-nav a.selected, nav a:hover{
-  color:#32673f;
-}
-
-nav {text-align:center;
-  padding:10px 0;
-  margin:20px 0 0;
-}
-nav ul {
-  list-style:none;
-  margin:0 10px;
-  padding:0;
-}
-nav {
-  display:inline-block
-}
-
-nav a {font-weight:800;
-  padding:15px 10px;
-}
-
-/***********************
-Footer
-************************/
-footer{font-size:0.75em;
-  text-align:center;
-  clear:both;
-  padding-top:50 px;
-  color:#ccc;
-}
-social_logo {
-  width:20px;
-  height:20px;
-  margin:0 5px;
-}
-
-/* site body*/
-body {
-  background-color:#fff;
-  color:#999;
-}
-body {font-family: 'Shadows Into Light', cursive;
-}
 
 /***********************
 Page: About
