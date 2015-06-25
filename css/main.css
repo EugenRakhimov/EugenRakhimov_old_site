@@ -57,6 +57,9 @@ h2 {float:left;
   margin:0px 0 0;
   font-weight:normal;
 }
+h3{
+  margin:0 0 1em 0;
+} 
 
 /***********************
 Navigation
@@ -115,6 +118,11 @@ social_logo {
   height:20px;
   margin:0 5px;
 }
+#logo {
+  text-align:center;
+    margin:0;
+}
+
 
 /***********************
 Page:My Family
@@ -146,28 +154,21 @@ Page:My Family
   margin:0 auto;
   
 }
-#logo {
-  text-align:center;
-    margin:0;
-}
-h3{
-  margin:0 0 1em 0;
-} 
-
-
 
 
 
 /***********************
-Page: About
+Page: Lego
 ************************/
-
-.profile-photo {
-  display:block;
+.Lego-logo  {
+ display:block;
   max-width:150px;
   margin:0 auto 30 px;
-  border-radius:100%;
+  border-radius:10%;
+ 
 }
+
+
     /***********************
 Page: Contact
 ************************/
